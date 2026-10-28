@@ -1,9 +1,9 @@
 {
-  "time_utc": "2026-10-28T13:25:58.531Z",
-  "duration_seconds": 204.92,
-  "article_id": 14,
-  "backend_pid": 20760,
-  "raw_file": "page@e330a26b08306bd4dc6daada17d7b813.webm",
+  "time_utc": "2026-10-28T14:04:14.776Z",
+  "duration_seconds": 204.84,
+  "article_id": 17,
+  "backend_pid": 19852,
+  "raw_file": "page@f0e21d81377b96a66a8668dc5ff24ac3.webm",
   "cues": [
     {
       "seconds": 0,
@@ -18,7 +18,7 @@
       "text": "02 Публічна головна сторінка, Bootstrap та локальні ілюстрації"
     },
     {
-      "seconds": 35,
+      "seconds": 34,
       "text": "Пошук матеріалів за текстом"
     },
     {
@@ -34,7 +34,7 @@
       "text": "Заповнено текст, рубрику, джерело та альтернативний опис"
     },
     {
-      "seconds": 67,
+      "seconds": 66,
       "text": "Чернетка збережена у PostgreSQL"
     },
     {
@@ -62,7 +62,7 @@
       "text": "Читач бачить опублікований текст, автора та джерело"
     },
     {
-      "seconds": 133,
+      "seconds": 132,
       "text": "07 Справжній SELECT: Published, дві версії та журнал редакційних рішень"
     },
     {
@@ -83,6 +83,6 @@
     }
   ],
   "kind": "Continuous recording of real browser actions, local Kestrel logs and PostgreSQL query; no desktop capture",
-  "recording_wall_seconds": 209,
-  "duration_note": "Container duration measured by FFmpeg; wall time includes video finalization"
+  "recording_wall_seconds": 208,
+  "duration_note": "Container duration measured by FFmpeg; wall time includes finalization"
 }

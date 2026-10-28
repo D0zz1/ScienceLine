@@ -2,6 +2,8 @@
 
 Курсова робота з дисципліни «Веб-технології та веб-дизайн», варіант №1 — науково-популярний новинний портал. Резников Володимир Іванович, АІ-231.
 
+Репозиторій: [D0zz1/ScienceLine](https://github.com/D0zz1/ScienceLine). Версія подання: **v1.0.1**. Файли цієї версії доступні за відповідною Git-позначкою.
+
 Працездатний ASP.NET Core MVC застосунок із PostgreSQL, EF Core migrations, ASP.NET Core Identity та локальною копією Bootstrap 5.3.8. Це навчальна редакція: початкові статті й облікові записи демонстраційні, ілюстрації — власні SVG-схеми. Публічна статична копія не використовується замість backend.
 
 ## Що реалізовано
@@ -26,7 +28,7 @@ CREATE ROLE scienceline LOGIN PASSWORD 'REPLACE_WITH_RANDOM_DATABASE_PASSWORD';
 CREATE DATABASE scienceline OWNER scienceline;
 ```
 
-У PowerShell із кореня репозиторію:
+У PowerShell 7 із кореня репозиторію:
 
 ```powershell
 $env:ConnectionStrings__Portal='Host=127.0.0.1;Port=5432;Database=scienceline;Username=scienceline;Password=YOUR_DATABASE_PASSWORD'
