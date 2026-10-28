@@ -1,0 +1,34 @@
+services:
+  db:
+    image: postgres:17.11
+    environment:
+      POSTGRES_DB: scienceline
+      POSTGRES_USER: scienceline
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+    volumes:
+      - portal-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U scienceline -d scienceline"]
+      interval: 5s
+      timeout: 3s
+      retries: 15
+  web:
+    build: .
+    ports:
+      - "127.0.0.1:5180:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      ConnectionStrings__Portal: Host=db;Database=scienceline;Username=scienceline;Password=${DB_PASSWORD}
+      Database__AutoMigrate: "true"
+      Demo__Enabled: "true"
+      Demo__Password: ${DEMO_PASSWORD:?Set DEMO_PASSWORD in .env}
+      DataProtection__KeysPath: /app/keys
+    volumes:
+      - portal-keys:/app/keys
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  portal-db:
+  portal-keys:

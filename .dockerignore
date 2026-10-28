@@ -1,0 +1,8 @@
+**/bin
+**/obj
+.git
+.local
+**/.local
+.env
+docs/evidence
+artifacts

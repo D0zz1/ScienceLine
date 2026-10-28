@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>@ViewData["Title"] — Наука поруч</title>
+  <link rel="stylesheet" href="~/lib/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+<a class="skip-link" href="#main">До основного вмісту</a>
+<div class="edition-bar"><div class="container d-flex justify-content-between"><span>НЕЗАЛЕЖНА ЦІКАВІСТЬ. ПЕРЕВІРЕНІ ДЖЕРЕЛА.</span><span>НАВЧАЛЬНА РЕДАКЦІЯ</span></div></div>
+<header class="container site-header">
+  <nav class="navbar navbar-expand-lg" aria-label="Головна навігація">
+    <a class="brand" href="/"><span class="brand-orbit" aria-hidden="true">✳</span><span>НАУКА<span class="brand-light">ПОРУЧ</span></span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Відкрити меню"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="navigation">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="/articles">Усі матеріали</a></li>
+        <li class="nav-item"><a class="nav-link" href="/about">Про редакцію</a></li>
+        @if(User.IsInRole("Author")){<li><a class="nav-link" href="/author">Мої матеріали</a></li>}
+        @if(User.IsInRole("Editor")){<li><a class="nav-link" href="/editor">Редакційна черга</a></li>}
+        @if(User.Identity?.IsAuthenticated==true){
+          <li><form method="post" action="/account/logout">@Html.AntiForgeryToken()<button class="btn btn-outline-dark btn-sm" type="submit">Вийти</button></form></li>
+        }else{<li><a class="btn btn-dark rounded-pill px-4" href="/account/login">Увійти <span aria-hidden="true">↗</span></a></li>}
+      </ul>
+    </div>
+  </nav>
+</header>
+<main id="main" class="container main-content">
+  @if(TempData["Success"] is string success){<div class="alert alert-success" role="status">@success</div>}
+  @RenderBody()
+</main>
+<footer class="container site-footer"><div class="row gap-3"><div class="col-md"><strong>НАУКА ПОРУЧ</strong><p>Складні ідеї зрозумілою мовою.<br/>Джерела фактів відкриті для перевірки.</p></div><div class="col-md text-md-end"><a href="/articles">Читати</a> · <a href="/account/register">Стати автором</a><p class="mt-2">ScienceLine · Навчальний проєкт · 2026<br/>Ілюстрації схематичні. Демонстраційні матеріали.</p></div></div></footer>
+<script src="~/lib/bootstrap/bootstrap.bundle.min.js"></script><script src="~/js/site.js" asp-append-version="true"></script>
+</body></html>

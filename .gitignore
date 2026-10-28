@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/.local/
+.local/
+.env
+.vs/
+TestResults/
+artifacts/
+*.user
+*.log

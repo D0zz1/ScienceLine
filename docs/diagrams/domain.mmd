@@ -1,0 +1,9 @@
+erDiagram
+    AspNetUsers ||--o{ Articles : writes
+    Categories ||--o{ Articles : groups
+    Articles ||--o{ ArticleTags : has
+    Tags ||--o{ ArticleTags : labels
+    Articles ||--|{ ArticleRevisions : versions
+    Articles ||--o{ EditorialDecisions : receives
+    ArticleRevisions ||--o{ EditorialDecisions : reviewed_version
+    AspNetUsers ||--o{ EditorialDecisions : acts

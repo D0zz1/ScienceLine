@@ -1,0 +1,7 @@
+{
+  "result": "PASS",
+  "article_id": 15,
+  "run_id": "E2E-2ca3a71523",
+  "verification": "Published title and complete body remain available after terminating and starting the .NET backend",
+  "new_process_pid": 20700
+}

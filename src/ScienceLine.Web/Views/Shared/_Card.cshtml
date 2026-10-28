@@ -1,0 +1,8 @@
+@model Article
+<article class="article-card h-100">
+  <a href="/articles/@Model.Id" class="card-image-link"><img src="/images/@(Model.CoverKey).svg" alt="@Model.ImageAlt" class="card-cover" loading="lazy" /></a>
+  <div class="card-content"><div class="article-meta"><span>@Model.Category.Name</span><span>@Model.PublishedAtUtc?.ToString("dd.MM.yyyy")</span></div>
+    <h3><a href="/articles/@Model.Id">@Model.Title</a></h3><p>@Model.Summary</p>
+    <div class="card-bottom"><span>@Model.Author.DisplayName</span><a href="/articles/@Model.Id" aria-label="Читати: @Model.Title">↗</a></div>
+  </div>
+</article>

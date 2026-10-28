@@ -1,0 +1,9 @@
+stateDiagram-v2
+    [*] --> Draft : save valid form
+    Draft --> Draft : update current version
+    Draft --> UnderReview : submit
+    UnderReview --> ChangesRequested : editor returns with comment
+    ChangesRequested --> ChangesRequested : author edits
+    ChangesRequested --> UnderReview : resubmit
+    UnderReview --> Published : editor publishes
+    Published --> [*]

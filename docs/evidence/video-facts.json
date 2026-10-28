@@ -1,0 +1,88 @@
+{
+  "time_utc": "2026-10-28T13:25:58.531Z",
+  "duration_seconds": 204.92,
+  "article_id": 14,
+  "backend_pid": 20760,
+  "raw_file": "page@e330a26b08306bd4dc6daada17d7b813.webm",
+  "cues": [
+    {
+      "seconds": 0,
+      "text": "01 Запуск справжнього ASP.NET Core backend"
+    },
+    {
+      "seconds": 10,
+      "text": "Журнал запуску Kestrel і адреса локального сервера"
+    },
+    {
+      "seconds": 22,
+      "text": "02 Публічна головна сторінка, Bootstrap та локальні ілюстрації"
+    },
+    {
+      "seconds": 35,
+      "text": "Пошук матеріалів за текстом"
+    },
+    {
+      "seconds": 44,
+      "text": "03 Автор створює приватну чернетку"
+    },
+    {
+      "seconds": 51,
+      "text": "Сервер відхиляє порожню форму та показує помилки"
+    },
+    {
+      "seconds": 59,
+      "text": "Заповнено текст, рубрику, джерело та альтернативний опис"
+    },
+    {
+      "seconds": 67,
+      "text": "Чернетка збережена у PostgreSQL"
+    },
+    {
+      "seconds": 75,
+      "text": "Публічний URL чернетки повертає 404"
+    },
+    {
+      "seconds": 82,
+      "text": "04 Матеріал на перевірці, автор не може змінювати текст"
+    },
+    {
+      "seconds": 90,
+      "text": "Редактор повертає матеріал із конкретним зауваженням"
+    },
+    {
+      "seconds": 101,
+      "text": "05 Історія версій: доданий висновок позначено кольором і знаком плюс"
+    },
+    {
+      "seconds": 113,
+      "text": "06 Редактор публікує виправлену версію"
+    },
+    {
+      "seconds": 122,
+      "text": "Читач бачить опублікований текст, автора та джерело"
+    },
+    {
+      "seconds": 133,
+      "text": "07 Справжній SELECT: Published, дві версії та журнал редакційних рішень"
+    },
+    {
+      "seconds": 147,
+      "text": "08 Backend перезапущено, процес отримав новий PID"
+    },
+    {
+      "seconds": 157,
+      "text": "Стаття залишається доступною після перезапуску сервера"
+    },
+    {
+      "seconds": 169,
+      "text": "Перевірка PostgreSQL після перезапуску підтверджує ті самі дані"
+    },
+    {
+      "seconds": 181,
+      "text": "Завершення демонстрації"
+    }
+  ],
+  "kind": "Continuous recording of real browser actions, local Kestrel logs and PostgreSQL query; no desktop capture",
+  "recording_wall_seconds": 209,
+  "duration_note": "Container duration measured by FFmpeg; wall time includes video finalization"
+}

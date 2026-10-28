@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4fb80554-2908-4c54-9c88-b1a4bdbf1345" name="mv@DESKTOP-293N82S 2026-10-28 15:39:17" runUser="DESKTOP-293N82S\mv" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-10-28T15:39:17.4909117+02:00" queuing="2026-10-28T15:39:17.4909119+02:00" start="2026-10-28T15:39:16.8644695+02:00" finish="2026-10-28T15:39:17.5143057+02:00" />
+  <TestSettings name="default" id="56b423fb-36ac-42c4-a5e2-65c06543778f">
+    <Deployment runDeploymentRoot="mv_DESKTOP-293N82S_2026-10-28_15_39_17" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="9e4f56bf-bb5f-4dd8-b069-2bcf50c7ca94" testId="79d86157-b3e5-e78b-b821-351694dfdab2" testName="ScienceLine.Tests.AlgorithmTests.SourceRequiresAbsoluteHttpAddress(source: &quot;file:///C:/private&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0001570" startTime="2026-10-28T15:39:17.4463796+02:00" endTime="2026-10-28T15:39:17.4464158+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e4f56bf-bb5f-4dd8-b069-2bcf50c7ca94" />
+    <UnitTestResult executionId="765350cf-417a-4199-8aee-0398c2c35813" testId="cc041e05-f504-0745-4590-d99a822d4e3c" testName="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;a\nb&quot;, after: &quot;a\nc\nb&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0000030" startTime="2026-10-28T15:39:17.4679682+02:00" endTime="2026-10-28T15:39:17.4680003+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="765350cf-417a-4199-8aee-0398c2c35813" />
+    <UnitTestResult executionId="680251f0-291a-451d-8738-c97615ac245f" testId="aa9604ef-0cd1-d942-ae90-df53b1703de7" testName="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;a\nb\nc&quot;, after: &quot;b&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0000037" startTime="2026-10-28T15:39:17.4678626+02:00" endTime="2026-10-28T15:39:17.4678964+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="680251f0-291a-451d-8738-c97615ac245f" />
+    <UnitTestResult executionId="aaa59ae0-e81d-4763-a13e-00e7e0256d6a" testId="b8e12406-6aac-b782-f944-1433c52d1d69" testName="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: Draft, allowed: True)" computerName="DESKTOP-293N82S" duration="00:00:00.0001823" startTime="2026-10-28T15:39:17.4445205+02:00" endTime="2026-10-28T15:39:17.4445907+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="aaa59ae0-e81d-4763-a13e-00e7e0256d6a" />
+    <UnitTestResult executionId="8623aae4-d254-4477-94b0-b29057459e8d" testId="4eab4ea4-45de-2f77-5346-5212d8e82b06" testName="ScienceLine.Tests.AlgorithmTests.SourceRequiresAbsoluteHttpAddress(source: &quot;https-relative&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0000056" startTime="2026-10-28T15:39:17.4464817+02:00" endTime="2026-10-28T15:39:17.4465168+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8623aae4-d254-4477-94b0-b29057459e8d" />
+    <UnitTestResult executionId="d1f5a68e-acc7-4164-858e-115c24b18b06" testId="06e50c58-60bc-f0aa-c03a-8357285503af" testName="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;&quot;, after: &quot;текст&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0000093" startTime="2026-10-28T15:39:17.4676247+02:00" endTime="2026-10-28T15:39:17.4676716+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d1f5a68e-acc7-4164-858e-115c24b18b06" />
+    <UnitTestResult executionId="27e8b9b1-6521-4f95-b2db-68347b331809" testId="edb2b1c6-51a3-53ef-f2b9-b7c814fbd48e" testName="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: UnderReview, allowed: False)" computerName="DESKTOP-293N82S" duration="00:00:00.0049132" startTime="2026-10-28T15:39:17.4258059+02:00" endTime="2026-10-28T15:39:17.4357759+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="27e8b9b1-6521-4f95-b2db-68347b331809" />
+    <UnitTestResult executionId="be142d81-b0b6-43c8-a323-09ef840afbca" testId="2622d007-8457-446f-54ea-11d46d341def" testName="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;x\nx\ny&quot;, after: &quot;x\ny\ny&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0018470" startTime="2026-10-28T15:39:17.4466268+02:00" endTime="2026-10-28T15:39:17.4466659+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be142d81-b0b6-43c8-a323-09ef840afbca" />
+    <UnitTestResult executionId="2bc41038-8eae-47dc-b84a-c5c9a01889b7" testId="54bdb872-790c-7e4b-871d-f34c8fe7af1c" testName="ScienceLine.Tests.AlgorithmTests.SourceRequiresAbsoluteHttpAddress(source: &quot;javascript:alert(1)&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0033761" startTime="2026-10-28T15:39:17.4462538+02:00" endTime="2026-10-28T15:39:17.4462958+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bc41038-8eae-47dc-b84a-c5c9a01889b7" />
+    <UnitTestResult executionId="a6b1b6ee-c834-4ea8-be67-fecad6df5f0f" testId="bd58815a-8c1d-617d-790a-f35f3d652f92" testName="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;A\r\nB&quot;, after: &quot;A\nB&quot;)" computerName="DESKTOP-293N82S" duration="00:00:00.0001538" startTime="2026-10-28T15:39:17.4467325+02:00" endTime="2026-10-28T15:39:17.4467679+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6b1b6ee-c834-4ea8-be67-fecad6df5f0f" />
+    <UnitTestResult executionId="7cc59a16-c937-4258-b115-6dc6dc2d23dd" testId="40238693-c191-eeda-4265-854cf5f05578" testName="ScienceLine.Tests.AlgorithmTests.DiffRejectsUnboundedMatrix" computerName="DESKTOP-293N82S" duration="00:00:00.0007416" startTime="2026-10-28T15:39:17.4680919+02:00" endTime="2026-10-28T15:39:17.4681260+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7cc59a16-c937-4258-b115-6dc6dc2d23dd" />
+    <UnitTestResult executionId="f12a8c90-ec8f-4aa6-8ca9-ba5cc7ee785b" testId="2642be7a-f411-3ecf-6929-ac0c4b1cb692" testName="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: ChangesRequested, allowed: True)" computerName="DESKTOP-293N82S" duration="00:00:00.0000018" startTime="2026-10-28T15:39:17.4453210+02:00" endTime="2026-10-28T15:39:17.4453603+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f12a8c90-ec8f-4aa6-8ca9-ba5cc7ee785b" />
+    <UnitTestResult executionId="8bd952cc-b7fb-4f75-8743-78611ce87d04" testId="e514dfbb-07fa-1a87-b182-b6e161bc996c" testName="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: Published, allowed: False)" computerName="DESKTOP-293N82S" duration="00:00:00.0000038" startTime="2026-10-28T15:39:17.4451971+02:00" endTime="2026-10-28T15:39:17.4452366+02:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8bd952cc-b7fb-4f75-8743-78611ce87d04" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;a\nb\nc&quot;, after: &quot;b&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="aa9604ef-0cd1-d942-ae90-df53b1703de7">
+      <Execution id="680251f0-291a-451d-8738-c97615ac245f" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="DiffCanReconstructBothVersions" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.SourceRequiresAbsoluteHttpAddress(source: &quot;file:///C:/private&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="79d86157-b3e5-e78b-b821-351694dfdab2">
+      <Execution id="9e4f56bf-bb5f-4dd8-b069-2bcf50c7ca94" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="SourceRequiresAbsoluteHttpAddress" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;&quot;, after: &quot;текст&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="06e50c58-60bc-f0aa-c03a-8357285503af">
+      <Execution id="d1f5a68e-acc7-4164-858e-115c24b18b06" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="DiffCanReconstructBothVersions" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;A\r\nB&quot;, after: &quot;A\nB&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="bd58815a-8c1d-617d-790a-f35f3d652f92">
+      <Execution id="a6b1b6ee-c834-4ea8-be67-fecad6df5f0f" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="DiffCanReconstructBothVersions" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.DiffRejectsUnboundedMatrix" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="40238693-c191-eeda-4265-854cf5f05578">
+      <Execution id="7cc59a16-c937-4258-b115-6dc6dc2d23dd" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="DiffRejectsUnboundedMatrix" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;x\nx\ny&quot;, after: &quot;x\ny\ny&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="2622d007-8457-446f-54ea-11d46d341def">
+      <Execution id="be142d81-b0b6-43c8-a323-09ef840afbca" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="DiffCanReconstructBothVersions" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: UnderReview, allowed: False)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="edb2b1c6-51a3-53ef-f2b9-b7c814fbd48e">
+      <Execution id="27e8b9b1-6521-4f95-b2db-68347b331809" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="OnlyEditableStatesPermitChanges" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: ChangesRequested, allowed: True)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="2642be7a-f411-3ecf-6929-ac0c4b1cb692">
+      <Execution id="f12a8c90-ec8f-4aa6-8ca9-ba5cc7ee785b" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="OnlyEditableStatesPermitChanges" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: Draft, allowed: True)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="b8e12406-6aac-b782-f944-1433c52d1d69">
+      <Execution id="aaa59ae0-e81d-4763-a13e-00e7e0256d6a" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="OnlyEditableStatesPermitChanges" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.SourceRequiresAbsoluteHttpAddress(source: &quot;javascript:alert(1)&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="54bdb872-790c-7e4b-871d-f34c8fe7af1c">
+      <Execution id="2bc41038-8eae-47dc-b84a-c5c9a01889b7" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="SourceRequiresAbsoluteHttpAddress" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.OnlyEditableStatesPermitChanges(state: Published, allowed: False)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="e514dfbb-07fa-1a87-b182-b6e161bc996c">
+      <Execution id="8bd952cc-b7fb-4f75-8743-78611ce87d04" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="OnlyEditableStatesPermitChanges" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.DiffCanReconstructBothVersions(before: &quot;a\nb&quot;, after: &quot;a\nc\nb&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="cc041e05-f504-0745-4590-d99a822d4e3c">
+      <Execution id="765350cf-417a-4199-8aee-0398c2c35813" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="DiffCanReconstructBothVersions" />
+    </UnitTest>
+    <UnitTest name="ScienceLine.Tests.AlgorithmTests.SourceRequiresAbsoluteHttpAddress(source: &quot;https-relative&quot;)" storage="c:\users\mv\documents\codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\scienceline\tests\scienceline.tests\bin\debug\net10.0\scienceline.tests.dll" id="4eab4ea4-45de-2f77-5346-5212d8e82b06">
+      <Execution id="8623aae4-d254-4477-94b0-b29057459e8d" />
+      <TestMethod codeBase="C:\Users\mv\Documents\Codex\2026-10-17\30-pdf-babilunga-op-edu-ua\work\web_coursework_v1\ScienceLine\tests\ScienceLine.Tests\bin\Debug\net10.0\ScienceLine.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner3/netcore/" className="ScienceLine.Tests.AlgorithmTests" name="SourceRequiresAbsoluteHttpAddress" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="79d86157-b3e5-e78b-b821-351694dfdab2" executionId="9e4f56bf-bb5f-4dd8-b069-2bcf50c7ca94" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc041e05-f504-0745-4590-d99a822d4e3c" executionId="765350cf-417a-4199-8aee-0398c2c35813" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="aa9604ef-0cd1-d942-ae90-df53b1703de7" executionId="680251f0-291a-451d-8738-c97615ac245f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8e12406-6aac-b782-f944-1433c52d1d69" executionId="aaa59ae0-e81d-4763-a13e-00e7e0256d6a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4eab4ea4-45de-2f77-5346-5212d8e82b06" executionId="8623aae4-d254-4477-94b0-b29057459e8d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06e50c58-60bc-f0aa-c03a-8357285503af" executionId="d1f5a68e-acc7-4164-858e-115c24b18b06" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="edb2b1c6-51a3-53ef-f2b9-b7c814fbd48e" executionId="27e8b9b1-6521-4f95-b2db-68347b331809" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2622d007-8457-446f-54ea-11d46d341def" executionId="be142d81-b0b6-43c8-a323-09ef840afbca" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54bdb872-790c-7e4b-871d-f34c8fe7af1c" executionId="2bc41038-8eae-47dc-b84a-c5c9a01889b7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bd58815a-8c1d-617d-790a-f35f3d652f92" executionId="a6b1b6ee-c834-4ea8-be67-fecad6df5f0f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="40238693-c191-eeda-4265-854cf5f05578" executionId="7cc59a16-c937-4258-b115-6dc6dc2d23dd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2642be7a-f411-3ecf-6929-ac0c4b1cb692" executionId="f12a8c90-ec8f-4aa6-8ca9-ba5cc7ee785b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e514dfbb-07fa-1a87-b182-b6e161bc996c" executionId="8bd952cc-b7fb-4f75-8743-78611ce87d04" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Список результатов" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Все загруженные результаты" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="13" executed="13" passed="13" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v3.1.4+50e68bbb8b (64-bit .NET 10.0.14)&#xD;
+[xUnit.net 00:00:00.07]   Discovering: ScienceLine.Tests&#xD;
+[xUnit.net 00:00:00.16]   Discovered:  ScienceLine.Tests&#xD;
+[xUnit.net 00:00:00.18]   Starting:    ScienceLine.Tests&#xD;
+[xUnit.net 00:00:00.25]   Finished:    ScienceLine.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

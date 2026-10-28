@@ -1,0 +1,12 @@
+@model HomeView
+@{ViewData["Title"]="Читати й розуміти";var featured=Model.Articles.FirstOrDefault();}
+<div class="home-intro"><div><div class="eyebrow">НАУКОВО-ПОПУЛЯРНИЙ ПОРТАЛ</div><h1>Світ вартий<br/><span>ще одного питання.</span></h1></div><div class="intro-note"><span class="tiny-orbit" aria-hidden="true">⊙</span><p>Космос, планета, технології.<br/>Пояснення, до яких хочеться<br/>повертатися.</p></div></div>
+<div class="topic-row" aria-label="Рубрики"><a class="topic active" href="/articles">Усе цікаве <span>↗</span></a>@foreach(var c in Model.Categories){<a class="topic" href="/articles?category=@c.Id">@c.Name</a>}</div>
+@if(featured is not null){
+<section class="featured row g-0" aria-label="Матеріал редакції"><div class="col-lg-6 featured-copy"><div class="eyebrow">ВИБІР РЕДАКЦІЇ · @featured.Category.Name</div><h2><a href="/articles/@featured.Id">@featured.Title</a></h2><p>@featured.Summary</p><a class="btn btn-light rounded-pill px-4" href="/articles/@featured.Id">Читати матеріал <span aria-hidden="true">↗</span></a><div class="featured-byline">@featured.Author.DisplayName <span>·</span> @featured.PublishedAtUtc?.ToString("dd.MM.yyyy")</div></div><div class="col-lg-6"><a href="/articles/@featured.Id"><img class="featured-image" src="/images/@(featured.CoverKey).svg" alt="@featured.ImageAlt" /></a></div></section>
+}
+<section class="latest"><div class="section-top"><h2>Останні матеріали<span class="count">@Model.PublishedCount</span></h2><a href="/articles">Уся стрічка ↗</a></div>
+<div class="row g-4">@foreach(var article in Model.Articles.Skip(1)){<div class="col-md-6 col-lg-4"><partial name="_Card" model="article" /></div>}</div>
+@if(Model.Articles.Count==0){<div class="empty-state"><h2>Редакція готує перші матеріали</h2><p>Опубліковані статті з’являться тут після перевірки.</p></div>}
+</section>
+<section class="author-invite"><div><span class="eyebrow">Є ПИТАННЯ, ЯКЕ ВАРТО ПОЯСНИТИ?</span><h2>Ваша цікавість може стати матеріалом.</h2><p>Підготуйте текст, додайте джерела й надішліть його редактору.</p></div><a href="/account/register" class="btn btn-dark rounded-pill px-4">Стати автором ↗</a></section>

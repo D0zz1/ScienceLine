@@ -1,0 +1,5 @@
+@model List<Article>
+@{ViewData["Title"]="Мої матеріали";}
+<div class="section-top page-heading"><div><div class="eyebrow">РОБОЧА ОБЛАСТЬ АВТОРА</div><h1>Мої матеріали</h1><p>Від першого абзацу до публікації.</p></div><a class="btn btn-dark rounded-pill px-4" href="/author/create">+ Новий матеріал</a></div>
+@if(Model.Count==0){<div class="empty-state"><h2>Перший матеріал починається тут</h2><p>Створіть чернетку. Читачі побачать її після перевірки редактором.</p><a href="/author/create" class="btn btn-dark">Створити чернетку</a></div>}
+<div class="workspace-list">@foreach(var a in Model){<article class="work-item"><div><div class="article-meta"><span>@a.Category.Name</span><span class="status-badge status-@a.Status">@a.StatusLabel</span></div><h2><a href="/author/@a.Id">@a.Title</a></h2><p>Версія тексту @a.RevisionNumber · Оновлено @a.UpdatedAtUtc.ToString("dd.MM.yyyy HH:mm") UTC</p></div><a class="btn btn-outline-dark" href="/author/@a.Id">Відкрити ↗</a></article>}</div>

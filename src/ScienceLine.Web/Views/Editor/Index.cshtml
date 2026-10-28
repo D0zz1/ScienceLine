@@ -1,0 +1,5 @@
+@model List<Article>
+@{ViewData["Title"]="Редакційна черга";}
+<div class="page-heading"><div class="eyebrow">РОБОЧА ОБЛАСТЬ РЕДАКТОРА</div><h1>Редакційна черга</h1><p>Перевірте пояснення, джерела та підпис ілюстрації перед публікацією.</p></div><div class="topic-row"><a class="topic" href="/editor">На перевірці</a><a class="topic" href="/editor?state=ChangesRequested">На доопрацюванні</a><a class="topic" href="/editor?state=Published">Опубліковані</a></div>
+@if(Model.Count==0){<div class="empty-state"><h2>У цій черзі поки порожньо</h2><p>Матеріали з’являться, щойно автори надішлють їх на перевірку.</p></div>}
+<div class="workspace-list">@foreach(var a in Model){<article class="work-item"><div><div class="article-meta"><span>@a.Category.Name</span><span class="status-badge status-@a.Status">@a.StatusLabel</span></div><h2><a href="/editor/@a.Id">@a.Title</a></h2><p>@a.Author.DisplayName · Версія @a.RevisionNumber</p></div><a class="btn btn-dark" href="/editor/@a.Id">Перевірити ↗</a></article>}</div>

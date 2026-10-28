@@ -1,0 +1,305 @@
+{
+  "run_id": "E2E-2ca3a71523",
+  "time_utc": "2026-10-28T13:39:19.708969+00:00",
+  "base_url": "http://127.0.0.1:5180",
+  "database": "PostgreSQL 17.11 (real server)",
+  "tests": [
+    {
+      "id": "T01",
+      "name": "Public catalogue reads PostgreSQL",
+      "result": "PASS",
+      "detail": "200",
+      "ms": 119.71
+    },
+    {
+      "id": "T02",
+      "name": "Guest editor access requires sign-in",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 4.88
+    },
+    {
+      "id": "T03",
+      "name": "Reader has no editorial permission",
+      "result": "PASS",
+      "detail": "403",
+      "ms": 4.99
+    },
+    {
+      "id": "T04",
+      "name": "Author cannot impersonate editor",
+      "result": "PASS",
+      "detail": "403",
+      "ms": 2.4
+    },
+    {
+      "id": "T05",
+      "name": "POST without CSRF is rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 7.65
+    },
+    {
+      "id": "T06",
+      "name": "Empty title rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 10.79
+    },
+    {
+      "id": "T07",
+      "name": "Empty body rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 4.3
+    },
+    {
+      "id": "T08",
+      "name": "Non-HTTP source rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 5.01
+    },
+    {
+      "id": "T09",
+      "name": "Unknown category rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 18.11
+    },
+    {
+      "id": "T10",
+      "name": "Unknown tag rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 65.81
+    },
+    {
+      "id": "T11",
+      "name": "Missing image alternative rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 4.29
+    },
+    {
+      "id": "T12",
+      "name": "Unknown illustration rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 3.71
+    },
+    {
+      "id": "T13",
+      "name": "Valid draft is created",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 0.0
+    },
+    {
+      "id": "T14",
+      "name": "Draft is invisible at public direct URL",
+      "result": "PASS",
+      "detail": "404",
+      "ms": 3.23
+    },
+    {
+      "id": "T15",
+      "name": "Foreign draft details are denied",
+      "result": "PASS",
+      "detail": "404",
+      "ms": 57.68
+    },
+    {
+      "id": "T16",
+      "name": "Foreign history is denied",
+      "result": "PASS",
+      "detail": "404",
+      "ms": 17.92
+    },
+    {
+      "id": "T17",
+      "name": "Overposted state ignored by DTO",
+      "result": "PASS",
+      "detail": "Draft",
+      "ms": 50.05
+    },
+    {
+      "id": "T18",
+      "name": "Same request ID returns same draft",
+      "result": "PASS",
+      "detail": "/author/15",
+      "ms": 4.78
+    },
+    {
+      "id": "T19",
+      "name": "Unique request key stored once",
+      "result": "PASS",
+      "detail": "1",
+      "ms": 49.49
+    },
+    {
+      "id": "T20",
+      "name": "Foreign draft submission denied",
+      "result": "PASS",
+      "detail": "404",
+      "ms": 27.38
+    },
+    {
+      "id": "T21",
+      "name": "Author submits current version",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 42.69
+    },
+    {
+      "id": "T22",
+      "name": "Draft cannot be edited during review",
+      "result": "PASS",
+      "detail": "409",
+      "ms": 11.39
+    },
+    {
+      "id": "T23",
+      "name": "Return without explanation rejected",
+      "result": "PASS",
+      "detail": "400",
+      "ms": 20.51
+    },
+    {
+      "id": "T24",
+      "name": "Editor returns with explanation",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 6.09
+    },
+    {
+      "id": "T25",
+      "name": "Return comment reaches author",
+      "result": "PASS",
+      "detail": "True",
+      "ms": 0.34
+    },
+    {
+      "id": "T26",
+      "name": "Stale edit returns conflict",
+      "result": "PASS",
+      "detail": "409",
+      "ms": 12.66
+    },
+    {
+      "id": "T27",
+      "name": "Corrected version is saved",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 8.94
+    },
+    {
+      "id": "T28",
+      "name": "Revision history contains two snapshots",
+      "result": "PASS",
+      "detail": "2",
+      "ms": 49.56
+    },
+    {
+      "id": "T29",
+      "name": "Text comparison displays added paragraph",
+      "result": "PASS",
+      "detail": "True",
+      "ms": 0.01
+    },
+    {
+      "id": "T30",
+      "name": "Repeated submission does not duplicate decision",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 4.28
+    },
+    {
+      "id": "T31",
+      "name": "Editor publishes reviewed article",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 10.19
+    },
+    {
+      "id": "T32",
+      "name": "Repeated publication is idempotent",
+      "result": "PASS",
+      "detail": "302",
+      "ms": 2.58
+    },
+    {
+      "id": "T33",
+      "name": "Publication event exists once",
+      "result": "PASS",
+      "detail": "1",
+      "ms": 48.78
+    },
+    {
+      "id": "T34",
+      "name": "Published material becomes public",
+      "result": "PASS",
+      "detail": "200",
+      "ms": 4.31
+    },
+    {
+      "id": "T35",
+      "name": "Search finds published title",
+      "result": "PASS",
+      "detail": "True",
+      "ms": 31.94
+    },
+    {
+      "id": "T36",
+      "name": "Search without matches has helpful empty state",
+      "result": "PASS",
+      "detail": "True",
+      "ms": 4.81
+    },
+    {
+      "id": "T37",
+      "name": "Search SQL metacharacters are harmless",
+      "result": "PASS",
+      "detail": "200",
+      "ms": 4.07
+    },
+    {
+      "id": "T38",
+      "name": "Published records cannot be edited by author",
+      "result": "PASS",
+      "detail": "409",
+      "ms": 4.98
+    },
+    {
+      "id": "T39",
+      "name": "Article text is HTML encoded",
+      "result": "PASS",
+      "detail": "True",
+      "ms": 0.01
+    },
+    {
+      "id": "T40",
+      "name": "Security headers are present",
+      "result": "PASS",
+      "detail": "True",
+      "ms": 50.3
+    },
+    {
+      "id": "T41",
+      "name": "50 warm catalogue requests completed",
+      "result": "PASS",
+      "detail": {
+        "requests": 50,
+        "concurrency": 1,
+        "median_ms": 4.09,
+        "p95_ms": 4.8,
+        "min_ms": 3.71,
+        "max_ms": 15.11,
+        "scope": "Loopback HTTP, warm application, small demo database; not a load capacity claim"
+      },
+      "ms": 0.0
+    }
+  ],
+  "passed": 41,
+  "failed": 0
+}
