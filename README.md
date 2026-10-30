@@ -2,7 +2,7 @@
 
 Курсова робота з дисципліни «Веб-технології та веб-дизайн», варіант №1 — науково-популярний новинний портал. Резников Володимир Іванович, АІ-231.
 
-Репозиторій: [D0zz1/ScienceLine](https://github.com/D0zz1/ScienceLine). Версія подання: **v1.0.2**. Файли цієї версії доступні за відповідною Git-позначкою.
+Репозиторій: [D0zz1/ScienceLine](https://github.com/D0zz1/ScienceLine). Версія подання: **v1.0.3**. Файли цієї версії доступні за відповідною Git-позначкою.
 
 Працездатний ASP.NET Core MVC застосунок із PostgreSQL, EF Core migrations, ASP.NET Core Identity та локальною копією Bootstrap 5.3.8. Це навчальна редакція: початкові статті й облікові записи демонстраційні, ілюстрації — власні SVG-схеми. Публічна статична копія не використовується замість backend.
 
@@ -145,3 +145,9 @@ pnpm --dir tests install --frozen-lockfile
 Мінімізація офіційного Bootstrap 5.3.8 зменшує CSS із 280 311 до 232 111 байтів, на 17,2 %. Три холодні повтори кожного стану з чергуванням порядку дали медіанний LCP 448/456 мс; виграшу LCP цей дослід не підтвердив. Саме скорочення файла не прирівнюється до прискорення кадру. Перевірені ширина, шрифт і посилання однакові; дані — frontend-comparison.json.
 
 Обидва порівняння включені в run-quality.ps1. Для окремого запуску на вже запущеному ізольованому backend: `python tests/optimization_comparison.py --settings PRIVATE_CLONE_JSON --psql PATH` та `node tests/frontend-comparison.cjs`. Параметр `-EvidenceDirectory` зберігає результати в іншій папці, наприклад `.local/quality-check`, без перезапису доданих доказів.
+
+## Оновлена відеодемонстрація v1.0.3
+
+30.10.2026 демонстрацію перезаписано з посимвольним введенням 105 мс/символ, паузами й повільнішими переходами. Тривалість MP4 — 330,2 с (5 хв 30 с). Це безперервний автоматизований показ реального backend і PostgreSQL в окремій навчальній БД. Попередній MP4 замінено у комплекті подання, таймкоди записки оновлено.
+
+Сценарій: tests/video-demo.cjs. Власні параметри зберігайте в приватному VIDEO_SETTINGS_PATH (JSON з DbPort, Database, DbPassword, DemoPassword, AppPort). Потрібні свіжі мігровані навчальні дані зі стандартними Demo-користувачами, вільні loopback-порти backend і 18091, .NET Release build, Playwright із модулем ffmpeg (`pnpm --dir tests exec playwright install ffmpeg`). DOTNET_EXE задає dotnet, PSQL_EXE — psql, BROWSER_EXECUTABLE — Edge/Chromium. Сценарій запускає й зупиняє тільки створений ним backend.

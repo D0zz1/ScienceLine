@@ -1,9 +1,9 @@
 {
-  "time_utc": "2026-10-28T14:04:14.776Z",
-  "duration_seconds": 204.84,
-  "article_id": 17,
-  "backend_pid": 19852,
-  "raw_file": "page@f0e21d81377b96a66a8668dc5ff24ac3.webm",
+  "time_utc": "2026-10-30T19:35:35.732Z",
+  "duration_seconds": 330.2,
+  "article_id": 10,
+  "backend_pid": 13072,
+  "raw_file": "page@f86f09ad787c05d5553673098535f55e.webm",
   "cues": [
     {
       "seconds": 0,
@@ -18,71 +18,187 @@
       "text": "02 Публічна головна сторінка, Bootstrap та локальні ілюстрації"
     },
     {
-      "seconds": 34,
+      "seconds": 38,
       "text": "Пошук матеріалів за текстом"
     },
     {
-      "seconds": 44,
+      "seconds": 58,
       "text": "03 Автор створює приватну чернетку"
     },
     {
-      "seconds": 51,
+      "seconds": 66,
       "text": "Сервер відхиляє порожню форму та показує помилки"
     },
     {
-      "seconds": 59,
+      "seconds": 138,
       "text": "Заповнено текст, рубрику, джерело та альтернативний опис"
     },
     {
-      "seconds": 66,
+      "seconds": 146,
       "text": "Чернетка збережена у PostgreSQL"
     },
     {
-      "seconds": 75,
+      "seconds": 154,
       "text": "Публічний URL чернетки повертає 404"
     },
     {
-      "seconds": 82,
+      "seconds": 162,
       "text": "04 Матеріал на перевірці, автор не може змінювати текст"
     },
     {
-      "seconds": 90,
+      "seconds": 190,
       "text": "Редактор повертає матеріал із конкретним зауваженням"
     },
     {
-      "seconds": 101,
+      "seconds": 226,
       "text": "05 Історія версій: доданий висновок позначено кольором і знаком плюс"
     },
     {
-      "seconds": 113,
+      "seconds": 251,
       "text": "06 Редактор публікує виправлену версію"
     },
     {
-      "seconds": 122,
+      "seconds": 260,
       "text": "Читач бачить опублікований текст, автора та джерело"
     },
     {
-      "seconds": 132,
+      "seconds": 271,
       "text": "07 Справжній SELECT: Published, дві версії та журнал редакційних рішень"
     },
     {
-      "seconds": 147,
+      "seconds": 287,
       "text": "08 Backend перезапущено, процес отримав новий PID"
     },
     {
-      "seconds": 157,
+      "seconds": 298,
       "text": "Стаття залишається доступною після перезапуску сервера"
     },
     {
-      "seconds": 169,
+      "seconds": 310,
       "text": "Перевірка PostgreSQL після перезапуску підтверджує ті самі дані"
     },
     {
-      "seconds": 181,
+      "seconds": 322,
       "text": "Завершення демонстрації"
     }
   ],
-  "kind": "Continuous recording of real browser actions, local Kestrel logs and PostgreSQL query; no desktop capture",
-  "recording_wall_seconds": 208,
-  "duration_note": "Container duration measured by FFmpeg; wall time includes finalization"
+  "typing": [
+    {
+      "field": "q",
+      "startSeconds": 35.959,
+      "characters": 8,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 37.051
+    },
+    {
+      "field": "Email",
+      "startSeconds": 48.553,
+      "characters": 26,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 51.612
+    },
+    {
+      "field": "Password",
+      "startSeconds": 53.43,
+      "characters": 30,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 56.92
+    },
+    {
+      "field": "Title",
+      "startSeconds": 74.779,
+      "characters": 46,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 80.017
+    },
+    {
+      "field": "Summary",
+      "startSeconds": 81.843,
+      "characters": 89,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 91.749
+    },
+    {
+      "field": "Body",
+      "startSeconds": 93.558,
+      "characters": 270,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 123.221
+    },
+    {
+      "field": "SourceUrl",
+      "startSeconds": 125.046,
+      "characters": 38,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 129.41
+    },
+    {
+      "field": "ImageAlt",
+      "startSeconds": 131.449,
+      "characters": 55,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 137.652
+    },
+    {
+      "field": "Email",
+      "startSeconds": 171.541,
+      "characters": 26,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 174.594
+    },
+    {
+      "field": "Password",
+      "startSeconds": 176.418,
+      "characters": 30,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 179.913
+    },
+    {
+      "field": "comment",
+      "startSeconds": 182.39,
+      "characters": 63,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 189.455
+    },
+    {
+      "field": "Email",
+      "startSeconds": 201.118,
+      "characters": 26,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 204.157
+    },
+    {
+      "field": "Password",
+      "startSeconds": 205.965,
+      "characters": 30,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 209.445
+    },
+    {
+      "field": "Body",
+      "startSeconds": 211.845,
+      "characters": 118,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 224.933
+    },
+    {
+      "field": "Email",
+      "startSeconds": 240.682,
+      "characters": 26,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 243.731
+    },
+    {
+      "field": "Password",
+      "startSeconds": 245.555,
+      "characters": 30,
+      "delayPerCharacterMs": 105,
+      "endSeconds": 249.041
+    }
+  ],
+  "automated": true,
+  "kind": "Continuous automated browser recording with 105 ms per-character input, local Kestrel logs and real PostgreSQL query; no desktop capture",
+  "recording_wall_seconds": 334,
+  "duration_note": "MP4 container duration measured by FFmpeg; continuous recording, no time compression",
+  "encoding": "H.264 yuv420p, no audio"
 }
