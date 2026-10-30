@@ -1,0 +1,117 @@
+[
+  {
+    "Plan": {
+      "Node Type": "Limit",
+      "Parallel Aware": false,
+      "Async Capable": false,
+      "Startup Cost": 1.35,
+      "Total Cost": 9.58,
+      "Plan Rows": 9,
+      "Plan Width": 71,
+      "Actual Startup Time": 0.049,
+      "Actual Total Time": 0.05,
+      "Actual Rows": 9,
+      "Actual Loops": 1,
+      "Shared Hit Blocks": 13,
+      "Shared Read Blocks": 0,
+      "Shared Dirtied Blocks": 0,
+      "Shared Written Blocks": 0,
+      "Local Hit Blocks": 0,
+      "Local Read Blocks": 0,
+      "Local Dirtied Blocks": 0,
+      "Local Written Blocks": 0,
+      "Temp Read Blocks": 0,
+      "Temp Written Blocks": 0,
+      "Plans": [
+        {
+          "Node Type": "Incremental Sort",
+          "Parent Relationship": "Outer",
+          "Parallel Aware": false,
+          "Async Capable": false,
+          "Startup Cost": 1.35,
+          "Total Cost": 48.86,
+          "Plan Rows": 52,
+          "Plan Width": 71,
+          "Actual Startup Time": 0.049,
+          "Actual Total Time": 0.049,
+          "Actual Rows": 9,
+          "Actual Loops": 1,
+          "Sort Key": [
+            "\"PublishedAtUtc\" DESC",
+            "\"Id\" DESC"
+          ],
+          "Presorted Key": [
+            "\"PublishedAtUtc\""
+          ],
+          "Full-sort Groups": {
+            "Group Count": 1,
+            "Sort Methods Used": [
+              "quicksort"
+            ],
+            "Sort Space Memory": {
+              "Average Sort Space Used": 26,
+              "Peak Sort Space Used": 26
+            }
+          },
+          "Shared Hit Blocks": 13,
+          "Shared Read Blocks": 0,
+          "Shared Dirtied Blocks": 0,
+          "Shared Written Blocks": 0,
+          "Local Hit Blocks": 0,
+          "Local Read Blocks": 0,
+          "Local Dirtied Blocks": 0,
+          "Local Written Blocks": 0,
+          "Temp Read Blocks": 0,
+          "Temp Written Blocks": 0,
+          "Plans": [
+            {
+              "Node Type": "Index Scan",
+              "Parent Relationship": "Outer",
+              "Parallel Aware": false,
+              "Async Capable": false,
+              "Scan Direction": "Backward",
+              "Index Name": "IX_Articles_Status_PublishedAtUtc",
+              "Relation Name": "Articles",
+              "Alias": "Articles",
+              "Startup Cost": 0.14,
+              "Total Cost": 46.98,
+              "Plan Rows": 52,
+              "Plan Width": 71,
+              "Actual Startup Time": 0.011,
+              "Actual Total Time": 0.023,
+              "Actual Rows": 10,
+              "Actual Loops": 1,
+              "Index Cond": "((\"Status\")::text = 'Published'::text)",
+              "Rows Removed by Index Recheck": 0,
+              "Shared Hit Blocks": 4,
+              "Shared Read Blocks": 0,
+              "Shared Dirtied Blocks": 0,
+              "Shared Written Blocks": 0,
+              "Local Hit Blocks": 0,
+              "Local Read Blocks": 0,
+              "Local Dirtied Blocks": 0,
+              "Local Written Blocks": 0,
+              "Temp Read Blocks": 0,
+              "Temp Written Blocks": 0
+            }
+          ]
+        }
+      ]
+    },
+    "Planning": {
+      "Shared Hit Blocks": 152,
+      "Shared Read Blocks": 0,
+      "Shared Dirtied Blocks": 0,
+      "Shared Written Blocks": 0,
+      "Local Hit Blocks": 0,
+      "Local Read Blocks": 0,
+      "Local Dirtied Blocks": 0,
+      "Local Written Blocks": 0,
+      "Temp Read Blocks": 0,
+      "Temp Written Blocks": 0
+    },
+    "Planning Time": 2.542,
+    "Triggers": [],
+    "Execution Time": 0.065
+  }
+]

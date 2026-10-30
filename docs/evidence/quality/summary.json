@@ -1,0 +1,36 @@
+{
+  "measuredRequests": 45141,
+  "errors": 0,
+  "worstP95ms": 25.55,
+  "worstP99ms": 28.61,
+  "volumeLevels": [
+    100,
+    1000,
+    10000
+  ],
+  "scopedAccessibilityWidths": [
+    320,
+    360,
+    768,
+    1440
+  ],
+  "indexComparison": {
+    "sameRows": true,
+    "restored": true,
+    "sqlMedianMs": [
+      4.763999999999999,
+      0.067
+    ],
+    "httpMedianMs": [
+      8.8101,
+      4.25815
+    ]
+  },
+  "cssComparison": {
+    "savedBytes": 48200,
+    "medianLcpMs": [
+      448,
+      456
+    ]
+  }
+}

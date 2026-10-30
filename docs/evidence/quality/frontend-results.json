@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-29T21:10:50.361Z",
+  "conditions": {
+    "origin": "http://127.0.0.1:5181",
+    "network": "10 Mbit/s down, 5 Mbit/s up, 40 ms latency",
+    "cpuSlowdown": 4,
+    "repeats": 3,
+    "coldContext": true,
+    "fieldINP": false,
+    "scope": "Headless local Edge laboratory measurements. Event Timing samples and input-to-paint are reported separately from field INP."
+  },
+  "performance": [
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "repeat": 1,
+      "lcp": 920,
+      "cls": 0,
+      "events": [
+        {
+          "name": "keydown",
+          "duration": 16,
+          "interactionId": 4706
+        },
+        {
+          "name": "keypress",
+          "duration": 16,
+          "interactionId": 4706
+        },
+        {
+          "name": "keyup",
+          "duration": 16,
+          "interactionId": 4706
+        },
+        {
+          "name": "keyup",
+          "duration": 16,
+          "interactionId": 4713
+        },
+        {
+          "name": "keydown",
+          "duration": 16,
+          "interactionId": 4734
+        },
+        {
+          "name": "keypress",
+          "duration": 16,
+          "interactionId": 4734
+        }
+      ],
+      "paint": [
+        3.2999999998137355,
+        3.3999999999068677,
+        3.5,
+        2.8999999999068677,
+        5.2000000001862645
+      ],
+      "ttfbMs": 4.2000000001862645,
+      "domContentLoadedMs": 681.8999999999069,
+      "loadMs": 686.5,
+      "transferBytes": 345613,
+      "requests": 7,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "repeat": 2,
+      "lcp": 668,
+      "cls": 0,
+      "events": [
+        {
+          "name": "keydown",
+          "duration": 16,
+          "interactionId": 8179
+        },
+        {
+          "name": "keypress",
+          "duration": 16,
+          "interactionId": 8179
+        },
+        {
+          "name": "keydown",
+          "duration": 16,
+          "interactionId": 8186
+        },
+        {
+          "name": "keypress",
+          "duration": 16,
+          "interactionId": 8186
+        }
+      ],
+      "paint": [
+        3.5,
+        6.100000000093132,
+        3.2000000001862645,
+        3.6000000000931323,
+        5.300000000279397
+      ],
+      "ttfbMs": 6.100000000093132,
+      "domContentLoadedMs": 597.5,
+      "loadMs": 601.8999999999069,
+      "transferBytes": 344816,
+      "requests": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "repeat": 3,
+      "lcp": 688,
+      "cls": 0,
+      "events": [
+        {
+          "name": "keyup",
+          "duration": 16,
+          "interactionId": 3967
+        }
+      ],
+      "paint": [
+        3.1999999997206032,
+        4.2000000001862645,
+        2.7000000001862645,
+        3.8999999999068677,
+        2.8999999999068677
+      ],
+      "ttfbMs": 3.3000000002793968,
+      "domContentLoadedMs": 618.8999999999069,
+      "loadMs": 623.8000000002794,
+      "transferBytes": 344816,
+      "requests": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "repeat": 1,
+      "lcp": 652,
+      "cls": 0,
+      "events": [],
+      "paint": [
+        3.3999999999068677,
+        5.800000000279397,
+        3.3999999999068677,
+        4.5,
+        2.7999999998137355
+      ],
+      "ttfbMs": 2.8999999999068677,
+      "domContentLoadedMs": 586.3999999999069,
+      "loadMs": 591.2000000001863,
+      "transferBytes": 344816,
+      "requests": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "repeat": 2,
+      "lcp": 684,
+      "cls": 0,
+      "events": [
+        {
+          "name": "keydown",
+          "duration": 16,
+          "interactionId": 618
+        },
+        {
+          "name": "keypress",
+          "duration": 16,
+          "interactionId": 618
+        }
+      ],
+      "paint": [
+        4.5,
+        6,
+        3.6000000000931323,
+        4.5,
+        3.6999999997206032
+      ],
+      "ttfbMs": 3.3000000002793968,
+      "domContentLoadedMs": 605.8999999999069,
+      "loadMs": 610.3999999999069,
+      "transferBytes": 344816,
+      "requests": 6,
+      "horizontalOverflow": false
+    },
+    {
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "repeat": 3,
+      "lcp": 644,
+      "cls": 0,
+      "events": [
+        {
+          "name": "keydown",
+          "duration": 16,
+          "interactionId": 2539
+        },
+        {
+          "name": "keypress",
+          "duration": 16,
+          "interactionId": 2539
+        }
+      ],
+      "paint": [
+        3.5,
+        6.2000000001862645,
+        4.399999999906868,
+        2.6000000000931323,
+        2.7000000001862645
+      ],
+      "ttfbMs": 3,
+      "domContentLoadedMs": 569.1000000000931,
+      "loadMs": 572.8999999999069,
+      "transferBytes": 344816,
+      "requests": 6,
+      "horizontalOverflow": false
+    }
+  ],
+  "accessibility": [
+    {
+      "width": 320,
+      "overflow": false,
+      "imagesMissingAlt": 0,
+      "missingInputNames": [],
+      "lang": "uk",
+      "focus": {
+        "tag": "A",
+        "text": "До основного вмісту",
+        "visibleOutline": true
+      },
+      "pass": true
+    },
+    {
+      "width": 360,
+      "overflow": false,
+      "imagesMissingAlt": 0,
+      "missingInputNames": [],
+      "lang": "uk",
+      "focus": {
+        "tag": "A",
+        "text": "До основного вмісту",
+        "visibleOutline": true
+      },
+      "pass": true
+    },
+    {
+      "width": 768,
+      "overflow": false,
+      "imagesMissingAlt": 0,
+      "missingInputNames": [],
+      "lang": "uk",
+      "focus": {
+        "tag": "A",
+        "text": "До основного вмісту",
+        "visibleOutline": true
+      },
+      "pass": true
+    },
+    {
+      "width": 1440,
+      "overflow": false,
+      "imagesMissingAlt": 0,
+      "missingInputNames": [],
+      "lang": "uk",
+      "focus": {
+        "tag": "A",
+        "text": "До основного вмісту",
+        "visibleOutline": true
+      },
+      "pass": true
+    }
+  ],
+  "browser": "156.0.4314.50",
+  "loginLabels": [
+    {
+      "name": "Email",
+      "hasLabel": true
+    },
+    {
+      "name": "Password",
+      "hasLabel": true
+    }
+  ]
+}

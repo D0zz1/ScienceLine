@@ -8,3 +8,5 @@ TestResults/
 artifacts/
 *.user
 *.log
+**/node_modules/
+tests/work/
